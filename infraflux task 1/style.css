@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Young Serif', serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/bg.gif);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+
+.logo{
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.content h1{
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.content button{
+    background: transparent;
+    border: 2px solid;
+    outline: none;
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+.content button:hover{
+    color: gray;
+    border: 2px solid gray;
+}
+
+.launch-time{
+    display: flex;
+}
+
+.launch-time div{
+    flex-basis: 100px;
+}
+
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
